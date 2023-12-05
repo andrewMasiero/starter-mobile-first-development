@@ -27,3 +27,45 @@ main p {
   font-family: "Roboto", sans-serif;
   margin-top: 0;
 }
+img {
+  width: 100%;
+}
+
+/* @media all and (min-width: 700px) {
+  
+} */
+
+@media all and (min-width: 800px) {
+  p {
+    font-size: 12px;
+  }
+  .group {
+    display: flex;
+    padding: 50px;
+    margin: 50px;
+  }
+  #group-1 {
+    flex-direction: column;
+  }
+  #group-1-content {
+    flex-direction: row-reverse;
+  }
+  #group-1-item-1 {
+    flex: 2;
+  }
+  #group-1-item-2 {
+    display: flex;
+    flex-direction: column-reverse;
+    flex: 1;
+  }
+  .item {
+    margin: 10px;
+  }
+  #group-3 {
+    background: #765827;
+    padding: 10px 30px;
+  }
+  #group-3 .item {
+    margin: 10px;
+  }
+}
